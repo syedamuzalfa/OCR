@@ -98,7 +98,7 @@ python ocr_code.ipynb
 To show a result image in your README, upload `result.jpg` to your GitHub repository and add:
 
 ```md
-![OCR Result](result.jpg)
+(result.jpg)
 ```
 
 ---
