@@ -55,11 +55,9 @@ pip install -r requirements.txt
 ```
 project-folder/
 │
-├── main.py                      # Main automation script
+├── ocr_code.ipynb                      # Main automation script
 ├── requirements.txt             # List of required Python packages
-├── result.jpg                   # Image with drawn OCR results
-├── table_image_cropped2.png     # Cropped image for OCR
-├── table_output.csv             # Final structured data output
+├── result.jpg                   # Image with drawn OCR results           
 ├── inference/                   # Folder containing PaddleOCR models
 │   ├── ch_PP-OCRv3_det_infer/
 │   ├── ch_PP-OCRv3_rec_infer/
@@ -86,7 +84,7 @@ Place them in an `inference/` directory as shown in the structure above. You can
 
 4. **Run the Script**
 ```bash
-python main.py
+python ocr_code.ipynb 
 ```
 
 5. **View Output**
